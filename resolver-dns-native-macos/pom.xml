@@ -51,6 +51,7 @@
                   <goal>unpack-dependencies</goal>
                 </goals>
                 <configuration>
+                  <skip>true</skip>
                   <includeGroupIds>${project.groupId}</includeGroupIds>
                   <includeArtifactIds>netty-transport-native-unix-common</includeArtifactIds>
                   <classifier>${jni.classifier}</classifier>
